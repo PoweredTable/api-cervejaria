@@ -1,0 +1,9 @@
+CREATE TABLE cervejas (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    abv DECIMAL(5,1) NOT NULL,
+    tipo VARCHAR(15) NOT NULL,
+    nacionalidade VARCHAR(15)
+)
+
+INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Heineken', 4.5, 'Lager', 'Holanda');
