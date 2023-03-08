@@ -7,3 +7,11 @@ CREATE TABLE cervejas (
 )
 
 INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Heineken', 4.5, 'Lager', 'Holanda');
+INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Corona', 5.2, 'Pielsen', 'México');
+INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Patagônia', 4.2, 'Amber Ale', 'Argentina');
+INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Saint’Beer', 3.5, 'IPA', 'Brasil');
+INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Duff Beer', 3.5, 'Pielsen', 'EUA');
+INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Coruja', 3.5, 'Lager', 'Brasil');
+INSERT INTO cervejas (nome, abv, tipo, nacionalidade) VALUES ('Brugse Zot', 6.2, 'IPA', 'Bélgica');
+
+SELECT * from cervejas
