@@ -1,0 +1,32 @@
+{
+  "name": "api-cervejaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoweredTable/api-cervejaria.git"
+  },
+  "keywords": [
+    "MVC",
+    "JAVASCRIPT",
+    "SENAI",
+    "CERVEJA",
+    "SQL"
+  ],
+  "author": "Waldyr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PoweredTable/api-cervejaria/issues"
+  },
+  "homepage": "https://github.com/PoweredTable/api-cervejaria#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0"
+  }
+}
