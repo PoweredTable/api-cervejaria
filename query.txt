@@ -26,9 +26,11 @@ SELECT * FROM cervejas WHERE nome='Heineken'
 2: Buscar cervejas pelo tipo:
 SELECT * FROM cervejas WHERE tipo='Lager'
 
-3: 
+3: Buscar cervejas pelo nome parcial(ex: “Co" deve retornar Corona e Coruja)
+SELECT * FROM cervejas WHERE LOWER(nome) LIKE LOWER('%co%');
 
-4:
+4: Ordenar as cervejas pelo maior ABV
+SELECT * FROM cervejas ORDER BY abv DESC;
 
 5: Buscar cervejas pela nacionalidade:
 SELECT * FROM cervejas WHERE nacionalidade='Holanda'
