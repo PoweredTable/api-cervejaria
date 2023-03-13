@@ -21,10 +21,10 @@ SELECT * from cervejas
 ###### QUERIES UTILIZADAS NOS MÉTODOS ######
 
 1: Buscar dados da cerveja pelo nome:
-SELECT * FROM cervejas WHERE nome='Heineken'
+SELECT * FROM cervejas WHERE LOWER(nome)=LOWER('Heineken')
 
 2: Buscar cervejas pelo tipo:
-SELECT * FROM cervejas WHERE tipo='Lager'
+SELECT * FROM cervejas WHERE LOWER(tipo)=LOWER('Lager')
 
 3: Buscar cervejas pelo nome parcial(ex: “Co" deve retornar Corona e Coruja)
 SELECT * FROM cervejas WHERE LOWER(nome) LIKE LOWER('%co%');
@@ -33,4 +33,4 @@ SELECT * FROM cervejas WHERE LOWER(nome) LIKE LOWER('%co%');
 SELECT * FROM cervejas ORDER BY abv DESC;
 
 5: Buscar cervejas pela nacionalidade:
-SELECT * FROM cervejas WHERE nacionalidade='Holanda'
+SELECT * FROM cervejas WHERE LOWER(nacionalidade)=LOWER('Holanda')
